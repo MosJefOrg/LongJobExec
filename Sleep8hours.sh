@@ -2,7 +2,7 @@
 
 date
 echo "Hello, I'm going to sleep for 8 hours."
-sleep 8h
+sleep 28800
 date
 echo "All done!"
 
