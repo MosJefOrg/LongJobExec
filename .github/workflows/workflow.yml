@@ -8,4 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
-        run: ./Sleep8hours.sh
+        run: |
+          chmod +x ./Sleep8hours.sh
+          ./Sleep8hours.sh
